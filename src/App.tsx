@@ -22,6 +22,17 @@ function App() {
         </div>
         <button className={styles.button}>Get the App</button>
       </header>
+      <main className={styles.main}>
+        <div className={styles.textao}>
+          <h1 className={styles.font}>Uma boa saúde começa com o que você
+            <span className={styles.come}> Come</span>
+          </h1>
+          <p className={styles.fontP}>Quer comer com mais atenção? Acompanhe as refeições, 
+            conheça seus hábitos e alcance seus obetivos com 
+            <span className={styles.come}> FitCalBack</span>.
+            </p>
+        </div>
+      </main>
     </>
 
   );

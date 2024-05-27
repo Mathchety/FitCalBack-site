@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 1%;
+  margin: 2%;
   /* align-items: center; */
   /* background-color: blue; */
 }
@@ -102,4 +102,33 @@
 .button:active {
   background-color: #00796B;
   border: 3px solid #00574B;
+}
+.main{
+  display: flex;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2;
+  background-color: red;
+}
+.textao{
+  /* display: flex; */
+  margin-top: 5%;
+  margin-right: 60%;
+  padding-left: 1%;
+  padding-right: 2%;
+  background-color: blue;
+  display: block;
+}
+.font{
+  font-family: 'Poppins';
+  font-size: 48px;
+}
+.fontP{
+  font-family: 'Poppins';
+  font-size: 18px;
+  padding-right: 5%;
+}
+.come{
+  color: #00B4A9;
+  font-family: 'Poppins';
 }
